@@ -1,4 +1,3 @@
-import { error } from "console";
 
 export async function getCoinDetails() {
   try {
