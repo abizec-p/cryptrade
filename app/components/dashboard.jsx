@@ -17,7 +17,7 @@ export default async function Dashoboard() {
           <input
             type="text"
             placeholder="Search"
-            className="border w-60 outline-none text-l border-gray-200 rounded-xl px-5 p-2"
+            className="border w-60 outline-none text-md z-0 absolute right-5 top-3 border-gray-200 rounded-xl px-5 p-2"
             name=""
             id=""
           />

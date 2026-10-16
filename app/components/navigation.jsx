@@ -25,7 +25,7 @@ export default function Nav() {
     <div
       className={
         open
-          ? "w-60 md:flex absolute transition-all duration-300 overflow-hidden ease-in-out whitespace-nowrap  md:block border-r border-gray-300 p-0 md:p-2 w- md:w-60 bg-gray-50 h-screen flex-col center  "
+          ? "w-60 md:flex absolute z-100 transition-all duration-300 overflow-hidden ease-in-out whitespace-nowrap  md:block border-r border-gray-300 p-0 md:p-2 w- md:w-60 bg-gray-50 h-screen flex-col center  "
           : "w-2 md:w-full md:px-5"
       }
     >
@@ -54,7 +54,7 @@ export default function Nav() {
           onClick={() => {
             setIsOpen(true);
           }}
-          className={open?"absolute md:hidden hidden top-2  -right-10":"md:hidden"}
+          className={open?"absolute   md:hidden hidden   -right-10":"md:hidden "}
         />
       </div>
       <div className="flex flex-col  justify-around *:py-3 *:px-5 *:rounded-lg *:hover:bg-gray-200 ">
