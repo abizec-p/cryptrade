@@ -11,7 +11,7 @@ export  default async function Overview(){
     
     return(
         <div>
-               <div className="flex  p-5 mt-5 *:w-60 *:px-5 *:py-3 *:bg-white  *:rounded-xl *:border *:border-gray-200  justify-between">
+               <div className=" hidden md:flex  p-5 mt-5 *:w-60 *:px-5 *:py-3 *:bg-white  *:rounded-xl *:border *:border-gray-200  justify-between">
         <div><h1>Total Market Cap</h1>
         <h1 className=" text-green-600">{formatNumber(globalData?.total_market_cap.cad)}</h1></div>
         <div><h1>24h Volume</h1>
